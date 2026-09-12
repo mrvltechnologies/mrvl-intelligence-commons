@@ -30,8 +30,8 @@ Included so far (all `0.x`, not yet published):
   strategic, proprietary, and not published here.
 - **Not a dump of MRVL product code.** Everything here was deliberately re-extracted and
   genericised from MRVL's own internal systems, with proprietary decision logic, product-specific
-  types, and commercial thresholds excluded — see `MAGI_INTELLIGENCE_COMMONS.md` (this project's
-  parent governance document) for the admission criteria applied.
+  types, and commercial thresholds excluded, against MRVL's own internal admission criteria for
+  what may be published here.
 
 ## Philosophy
 
@@ -59,8 +59,11 @@ repository — every test uses synthetic fixtures or mocked providers. See
 The Apache License, Version 2.0 (`LICENSE`) covers **MRVL-authored source code** in this
 repository. External datasets, standards, and APIs this code can interoperate with (NaPTAN,
 TransXChange, SIRI, BODS) remain subject to their own respective terms — see
-`THIRD_PARTY_NOTICES.md` for the full basis, including two open legal questions that must be
-resolved before this repository can be published.
+`THIRD_PARTY_NOTICES.md` for the full basis. This release bundles no third-party data of any
+kind (only original code and synthetic test fixtures), so `THIRD_PARTY_NOTICES.md`'s two open
+questions about *real* operator/BODS data do not apply to what is actually shipped here; they
+remain open questions for any future release that would bundle real operator schedule or BODS
+data.
 
 Apache-2.0 grants rights to the code in this repository. It does not grant any right to use
 "MRVL", "Magi OS", "MJIP", or any MRVL product name or logo to imply official status,

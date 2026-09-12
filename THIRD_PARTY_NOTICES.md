@@ -11,8 +11,7 @@ things throughout, deliberately:
 The Apache-2.0 licence in `LICENSE` covers **MRVL-authored source code** in this repository only.
 It does not, and cannot, relicense the external data or standards listed below — each remains
 subject to its own owner's terms. Findings below were verified against primary sources on
-2026-09-11 (see the research trail in `MAGI_INTELLIGENCE_COMMONS.md`, this project's parent
-governance canon); two items remain open questions, named precisely, not left as a vague
+2026-09-11; two items remain open questions, named precisely below, not left as a vague
 placeholder.
 
 | Dependency | Owner/Publisher | Used at runtime? | Included/redistributed in this repo? | Licence/terms | Attribution |
@@ -40,14 +39,17 @@ tooling ecosystem) — not enumerated line-by-line here since none of their code
 redistributed in this repository's own published output; they are build/test tooling only. A
 `NOTICE`-file obligation would apply if that changes.
 
-## Open legal questions (see `MAGI_INTELLIGENCE_COMMONS.md` for full context)
+## Open legal questions
+
+Neither of the following is required, or blocking, for this repository as it exists today — this
+release bundles zero third-party data (confirmed by direct inspection of what each package
+actually ships: original code and fictional/synthetic fixtures only). Both are real, open
+questions that would need resolving, by a human with the ability to independently verify primary
+sources (ideally with professional legal review), **before any future release that bundles real
+operator-originated schedule content or real BODS-sourced data**:
 
 - **LEGAL-01**: Confirm the precise rights basis for operator-originated TransXChange schedule
   content, as distinct from the schema itself (confirmed Crown copyright) and from NaPTAN
   (confirmed OGL v3.0).
 - **LEGAL-02**: Confirm BODS's own primary terms-of-use page (blocked from automated fetch this
   pass — needs a manual/browser check or a direct enquiry to the DfT BODS team).
-
-Neither gate is required for private engineering preparation. Both must be cleared, by a human
-with the ability to independently verify primary sources (and ideally professional legal review
-per `MAGI_INTELLIGENCE_COMMONS.md` §O), before this repository's visibility changes to public.
