@@ -1,0 +1,23 @@
+{
+  "name": "@mrvltechnologies/uk-transit-resolver",
+  "version": "0.1.0",
+  "description": "UK bus operational-data interoperability: NaPTAN stop identity, TransXChange scheduled journeys, SIRI-VM live vehicle correlation (PRE-RELEASE / PRIVATE PREPARATION — not published).",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "LICENSE", "fixtures/synthetic/README.md"],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

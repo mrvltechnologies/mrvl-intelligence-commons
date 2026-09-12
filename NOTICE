@@ -1,0 +1,13 @@
+mrvl-intelligence-commons
+Copyright 2026 MRVL Technologies
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This NOTICE file lists attribution required by the Apache License itself (upstream
+NOTICE-file obligations from dependencies that carry one). It does not list third-party
+data/standards licensing obligations — those are tracked separately in
+THIRD_PARTY_NOTICES.md, since they are a different kind of obligation (data/standards
+licensing, not software copyright) and would otherwise be easy to conflate.
+
+No upstream Apache-licensed dependency with its own NOTICE-file content is bundled by this
+project as of this file's creation. This file will be updated if/when one is added.

@@ -1,0 +1,26 @@
+{
+  "name": "@mrvltechnologies/air-candidate-types",
+  "version": "0.1.0",
+  "description": "Provider-independent flight-offer and ground-access candidate types (PRE-RELEASE / PRIVATE PREPARATION — not published).",
+  "license": "Apache-2.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@mrvltechnologies/journey-provenance": "0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

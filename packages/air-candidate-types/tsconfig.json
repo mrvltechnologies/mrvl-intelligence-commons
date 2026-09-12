@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@mrvltechnologies/journey-provenance": ["../journey-provenance/src/index.ts"]
+    }
+  },
+  "references": [{ "path": "../journey-provenance" }],
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/**/*.test.ts"]
+}

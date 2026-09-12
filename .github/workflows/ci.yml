@@ -1,0 +1,31 @@
+# Smallest credible public CI gate: install -> typecheck -> test -> a basic secret/licence
+# sanity check. Inert until this repository is actually public — committed here only so the
+# gate is designed and reviewed ahead of time, not invented under publication pressure.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - name: Basic secret pattern check
+        run: |
+          ! grep -rniE "sk-[a-zA-Z0-9]{10,}|AIza[0-9A-Za-z_-]{20,}|ghp_[a-zA-Z0-9]{20,}|-----BEGIN (RSA|EC|OPENSSH|PGP) PRIVATE KEY" \
+            --include=*.ts --include=*.json --include=*.md . || (echo "Possible secret pattern found" && exit 1)
+      - name: Every package has a LICENSE file
+        run: |
+          for d in packages/*/; do
+            test -f "${d}LICENSE" || (echo "Missing LICENSE in $d" && exit 1)
+          done
