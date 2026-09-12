@@ -1,8 +1,8 @@
 # Third-Party Notices
 
-**PRE-RELEASE / PRIVATE PREPARATION.** This document records the licensing basis for external
-data and standards this project's code interoperates with. It distinguishes two different
-things throughout, deliberately:
+**PRE-RELEASE.** This document records the licensing basis for external data and standards this
+project's code interoperates with. It distinguishes two different things throughout,
+deliberately:
 
 - **USED AT RUNTIME** — this project's code can call/parse this provider's data when you run it.
 - **INCLUDED / REDISTRIBUTED IN THIS REPOSITORY** — this repository's own committed files

@@ -1,8 +1,8 @@
 # mrvl-intelligence-commons
 
-> **STATUS: PRE-RELEASE / PRIVATE PREPARATION.** This repository is not published. There is no
-> public GitHub URL, no npm package, and no installable release yet. Everything below describes
-> what this project will be once it is published — not a current public offering.
+> **STATUS: PRE-RELEASE.** This source repository is public, but no package has been published
+> to npm yet — there is no installable release. Everything below describes the packages this
+> project will publish, and what you'll be able to `npm install` once that happens.
 
 ## What this is
 
@@ -42,10 +42,11 @@ prediction, and an application's own derived conclusion are never collapsed into
 value, and missing evidence is represented honestly (`null`/an explicit `UNAVAILABLE` state)
 rather than defaulted to a plausible-looking guess.
 
-## Getting started (once published)
+## Getting started
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mrvltechnologies/mrvl-intelligence-commons.git
+cd mrvl-intelligence-commons
 npm install
 npm test
 ```
