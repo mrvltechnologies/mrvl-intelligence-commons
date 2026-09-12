@@ -6,9 +6,9 @@
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-**Preferred: GitHub Private Vulnerability Reporting** (once enabled on this repository) —
-Security → Report a vulnerability, on this repository's GitHub page. This routes your report
-directly and privately to maintainers without a public issue ever being created.
+**Preferred: GitHub Private Vulnerability Reporting** — Security → Report a vulnerability, on
+this repository's GitHub page. This routes your report directly and privately to maintainers
+without a public issue ever being created.
 
 **Alternative: email `security@mrvltechnologies.com`.** This address remains available even
 after Private Vulnerability Reporting is enabled — use whichever is more convenient.
