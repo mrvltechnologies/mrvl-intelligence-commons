@@ -1,7 +1,6 @@
 # Contributing
 
-**PRE-RELEASE / PRIVATE PREPARATION** — this repository is not yet published; this document
-describes the process that will apply once it is.
+**PRE-RELEASE** — this repository is public, but no package has been published to npm yet.
 
 ## Developer Certificate of Origin (DCO), not a CLA
 
